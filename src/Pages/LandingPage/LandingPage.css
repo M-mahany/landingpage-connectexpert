@@ -1,0 +1,739 @@
+.LandingPage{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.Cta-Main{
+    margin-top: 68px;
+    background: #faf8f6;
+    display: flex;
+    flex: wrap;
+    font-family: Public Sans,sans-serif;
+    font-weight: 300;
+    padding: 0;
+}
+.left-Cta-Main{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    flex: 1.1;
+    min-height: 412px;
+  background-image:url('../../assets/a-voip-phone-in-a-desk.jpg');
+}
+.right-Cta-Main{
+    padding-right: 5.5%;
+    margin-left: 35px;
+    flex: 1;
+}
+.right-Cta-Main h1{
+color: #212121;
+font-size: 45px;
+font-weight: 800;
+line-height: 53px;
+margin: 65px auto 22px;
+}
+.right-Cta-Main p{
+color: #212121;
+font-size: 17px;
+font-weight: 300;
+line-height: 28px;
+margin-bottom: 37px;
+max-width: 520px;
+}
+.right-Cta-Main a{
+    display: block;
+    width: fit-content;
+background-color: #fff;
+border: 1px solid #3754a0;
+border-radius: 4px;
+color: #3754a0;
+cursor: pointer;
+font-weight: 600;
+line-height: 20px;
+font-size: 17px;
+margin-bottom: 20px;
+min-height: 40px;
+padding: 14px 18px 14px 18px;
+position: relative;
+text-decoration: none;
+}
+.right-Cta-Main a:hover{
+    transform: scale(1.05);
+    box-shadow: 8px 8px 0 0 #3754a0;
+}
+.blinkMe {
+        animation: blinker 2.5s linear infinite;
+  }
+
+.What-is-content{
+padding: 71.5px 5% 50px 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.What-is-content h2{
+    padding-left: 10px;
+color: #212121;
+font-size: 30px;
+font-weight: 800;
+letter-spacing: -.3px;
+line-height: 1.27;
+margin: 0 auto 27px 0;
+width: 100%;
+}
+.What-is-content-Wrapper{
+    gap: 4%;
+    display: flex;
+}
+.Wrapper-left{
+    color: #212121;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    flex: 1.2;
+}
+.Wrapper-right{
+    flex: 1;
+}
+.Wrapper-right img{
+width: 100%;
+}
+.Get-StartedDiv{
+    gap: 20px;
+    padding: 71.5px 5% 50px 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #faf8f6;
+}
+.Get-Started-Title{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.Get-Started-Title h2{
+    padding-left: 10px;
+font-size: 30px;
+font-weight: 800;
+}
+.Get-Started-Title span{
+    margin-left: 18px;
+}
+.Get-Started-MainWrapper{
+    gap: 20px;
+    min-height: 650px;
+    display: flex;
+}
+.getStartedLeft-box{
+    margin-top: 8px;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    border-radius: 2px;
+    transition: .35s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.getStartedLeft-box:hover{
+    margin-bottom: 6px;
+    margin-top: 2px;
+    cursor: pointer;
+    border: 1px solid #00d084;
+}
+.getStartedLeft-box:hover h3{
+    text-decoration: underline;
+}
+
+.getStartedRight-box{
+    gap: 20px;
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    flex: 1;
+}
+.imgWrapper-GetStarted{
+    width: 100%;
+}
+.imgWrapper-GetStarted img{
+    width: 100%;
+    max-height: 320px;
+}
+.getStartedLeft-box h3{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -.2px;
+    line-height: 33px;
+}
+.getStartedLeft-box p{
+font-size: 15px;
+line-height: 25px;
+margin: 0 0 5px;
+}
+.getStartedLeft-box span{
+    padding:50px 20px;
+    }
+    .RightBoxe-Boxes h3{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.35;
+        margin: 0;
+    }
+ .RightBoxe-Boxes span{
+    color: #212121;
+    font-size: 13px;
+    line-height: 15px;
+}
+.RightBoxe-Boxes {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: calc(49% - 13px);
+    height: calc(50% - 13px);
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    border-radius: 2px;
+    transition: .35s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.RightBoxe-Boxes:hover h3{
+    text-decoration: underline;
+  }
+.RightBoxe-Boxes:hover{
+    margin-bottom: 6px;
+    margin-top: 0px;
+  border: 1px solid #00d084;
+}
+.Get-Notified-Div{
+    gap: 28px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-bottom: 1px solid #bdbdbd;
+    margin: 0;
+    padding: 67px 50px 112px;
+    width: auto;
+}
+.Get-Notified-MainWrapper{
+    gap: 5%;
+    display: flex;
+justify-content: space-between;
+}
+.leftBox{
+    box-shadow: 12px 12px 0 0 rgba(13,165,135,.2);
+    border: 1px solid #0da587;
+    border-radius: 4px;
+    flex: 1;
+}
+.leftBox:hover{
+    box-shadow: 12px 12px 0 0 #0da587;
+}
+.rightBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;}
+.QouteText{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.32;
+    margin-top: 15px;
+}
+.rightBox span{
+    display: block;
+    font-size: 17px;
+}
+.getGuidance-Div{
+    gap:28px;
+    display: flex;
+    flex-direction: column;
+    padding: 67px 50px 112px;
+    width: auto;
+}
+.Guidnace-MainWrapper{
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+.Boxe-Guidenace{
+    max-width: 800px;
+    transition: all .3s ease-in-out;
+    gap: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.Boxe-Guidenace h3{
+    margin-top: 0px;
+color: #212121;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+margin-bottom: 32px;
+}
+.MainBox{
+    gap: 12px;
+    cursor: pointer;
+    display: flex;
+min-height: 100px;
+}
+.MainBox:hover h3{
+text-decoration: underline;
+}
+.mainBoxImg{
+    max-width: 160px;
+flex: 1;
+}
+.mainBoxImg img{
+width: 100%;
+}
+
+.mainBoxText{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.mainBoxText h3{
+font-size: 15px;
+font-weight: 700;
+margin: 0 0 5px;
+}
+.AuthorBox{
+    color: #212121;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.Cta-Content{
+    background-color: rgba(26,155,219,.1);;
+}
+ .wrapperDiv{
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+.ImageDiv-Promo{
+    background-image: url('../../assets/a-voip-phone-in-a-desk.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-clip-path: polygon(20% 0,100% 0,80% 100%,0 100%);
+    clip-path: polygon(20% 0,100% 0,80% 100%,0 100%);
+    flex: 0 0 390px;
+    height: 218px;
+    width: 390px;
+}
+.Promo-Cta-Question{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.AnswerCta{
+    display: flex;
+}
+.Promo-Cta-Question h2{
+color: #212121;
+font-size: 25px;
+font-weight: 700;
+line-height: 25px;
+margin: 37px 0 26px;
+}
+.buttonQuestionaire{
+background-color: #fff;
+border: 1px solid #3754a0;
+border-radius: 4px;
+box-shadow: 8px 8px 0 0 rgba(55,84,160,.3);
+color: #3754a0;
+cursor: pointer;
+display: flex;
+flex: 1;
+flex-basis: auto;
+font-size: 15px;
+font-weight: 600;
+line-height: 20px;
+margin-right: 20px;
+min-width: 150px;
+padding: 10px 0 10px 15px;
+position: relative;
+text-decoration: none;
+transition: .3s;
+}
+.buttonQuestionaire:hover{
+    box-shadow: 8px 8px 0 0 rgb(13, 46, 128);
+}
+.buttonQuestionaire:hover .inner-circle{
+display: block;
+}
+.buttonQuestionaire:hover .outer-circle{
+    box-shadow: 0 0 0 2px #3754a0;
+    }
+.outer-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #3754a0;
+    height: 20px;
+    min-width: 20px;
+}
+.inner-circle{
+    display: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+background-color:#3754a0;
+}
+.WhoWeAre-MainDiv{
+    display: flex;
+    justify-content: center;
+    background-color: #faf8f6;
+}
+.WhoWeAre-Div{
+    max-width: 1100px;
+    display: flex;
+    gap:35px;
+    margin: 0;
+    padding: 70px 50px 60px;
+    width: auto;
+}
+.Box-title{
+    display: flex;
+    flex-direction: column;
+flex: 1;
+}
+.Box-Wrapper{
+    gap: 30px;
+    flex: 1.8;
+    display: flex;
+}
+.Box{
+    gap: 20px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boxWrapperWho{
+    max-width: 290px;
+    margin-bottom: 10px;
+width: 45%;
+    gap: 15px;
+    display: flex;
+}
+.Boxtitle{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Boxtitle p{
+    margin: 0;
+color: #212121;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+
+}
+.Paragraph-Who-weAre{
+    color: #212121;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 300;
+}
+.BoxPara{
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+}
+.ImgBoxWrapper{
+    padding-top: 6px;
+width: 70px;
+}
+.ImgBoxWraapper img{
+    height: 58px;
+    width: 100%;
+}
+.QuestionsMainDiv{
+    background-color: #fff;
+    margin: 0;
+    min-height: 750px;
+    overflow: hidden;
+    padding: 70px 50px 200px;
+    position: relative;
+    width: auto;
+display: flex;
+justify-content: center;
+}
+.QuestionsWrapperDiv{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.leftBoxQuestions{
+    flex: 1;
+}
+.leftBoxQuestions h2{
+    position: relative;
+    color: #212121;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -.3px;
+    line-height: 38px;
+    margin: 0 auto 27px 0;
+    width: 100%;
+    margin-left: 20px;
+}
+.leftBoxQuestions p{
+color: #212121;
+font-size: 15px;
+font-weight: 300;
+line-height: 24px;
+max-width: 433px;
+white-space: pre-wrap;
+}
+.rightBoxQuestions{
+    flex: 1.1;
+    display: flex;
+    flex-direction: column;
+}
+.EmailLink{
+    color: #3754a0;
+    text-decoration: underline;
+}
+.EmailLink:hover{
+font-weight: 600;
+}
+.FaqBox{
+border: 1px solid #0da587;
+border-radius: 4px;
+margin: 0 0 20px;
+padding: 22px 14px 22px 28px;
+}
+.Faq-Question{
+    cursor: pointer;
+    position: relative;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.Faq-Question p{
+    pointer-events: none;
+margin: 0px;
+margin-bottom: 10px;
+font-size: 1.0625em;
+line-height: 27px;
+font-weight: 600;
+}
+.FaqBox:hover{
+    box-shadow: 8px 8px 0 0 rgba(13,165,135,.2);
+}
+.FaqBox.active{
+    box-shadow: 8px 8px 0 0 rgba(13,165,135,.2);
+}
+.Faq-Question:hover p{
+text-decoration: underline;
+}
+.Faq-Answer{
+    display: none;
+}
+.Icon1{
+    position: absolute;
+    right: 0;
+    pointer-events: none;
+    color: #0DA587;
+    font-size: 24px;
+}
+.Icon2{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 0;
+    pointer-events: none;
+    color: #0DA587;
+    font-size: 24px;
+    transition: all .3s ease-in-out ;
+}
+.FaqBox.active .Icon2{
+    transform: rotate(0deg);
+}
+.FaqBox.active .Faq-Answer{
+    display: block;
+}
+.spanDesktop{
+    display: block;
+  padding: 20px 15px;
+}
+.spanMobile{
+    padding: 10px 0px;
+    display: none;
+}
+ .wrapperBoxWho{
+    display: 'flex';
+    width: 100%;
+}
+.wrapperBoxWho img{
+    object-fit: cover;
+    width: 100%;
+    height: 126px;
+}
+.textBoxWho{
+           margin: 20px 15px;     
+}
+.HeaderSelctMobile{
+    width: 100%;
+    display: none;
+    flex-direction: row;
+    display: none;
+    gap:3%;
+}
+.SpanTitle.active{
+font-weight: 800;
+border-bottom: 2px solid #0da587;
+}
+@media only screen and (max-width: 990px) {
+    .Cta-Main{
+flex-direction: column;
+    }
+    .left-Cta-Main{
+        -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+        clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+      }
+      .What-is-content h2{
+        font-size: 25px;
+        }
+        .What-is-content-Wrapper{
+    flex-direction: column-reverse;
+        }
+        .right-Cta-Main h1{
+            font-size: 38px;
+            }
+            .ImageDiv-Promo{
+                flex: auto;
+                -webkit-clip-path: polygon(0% 0,100% 0,100% 100%,0 100%);
+                clip-path: polygon(0% 0,100% 0,100% 100%,0 100%);
+                width: 100%;
+            }
+            .Get-Started-MainWrapper{
+           flex-direction: column;
+            }
+            .getStartedRight-box{
+                flex-direction: column;
+
+            }
+            .RightBoxe-Boxes {
+height: 30%;
+                 width: 100%;
+            }
+            .RightBoxe-Boxes a{
+                display: flex;
+           }
+            .spanDesktop{
+                display: none;
+            }
+            .spanMobile{
+                display: block;
+            }
+            .getStartedRight-box{
+                gap:0px;
+            }
+            .Get-Started-MainWrapper {
+                gap: 0px;
+            }
+            .Get-Started-Title{
+                align-items: start;
+                flex-direction: column;
+            }
+            .Get-Notified-MainWrapper{
+                flex-direction: column;
+            }
+            .Get-Notified-Div{
+                padding: 71.5px 5% 50px 5%;           
+             }
+             .leftBox{
+                height: 40vw;
+            }
+            .Get-Notified-MainWrapper{
+                gap: 40px;
+            }
+            .wrapperBoxWho{
+                display: 'flex';
+                max-width: 44%;
+            }
+         .textBoxWho{
+            margin: 10px 8px;     
+ }
+ .GuidanceTitleDesktop{
+    display: none;
+ }
+ .Boxe-Guidenace{
+display: none;
+ }
+ .Boxe-Guidenace.active{
+    display: block;
+     }
+    .MainBox:nth-child(3) {
+        padding-top: 10px;
+border-top: 1px solid #bdbdbd;
+    }
+    .MainBox:nth-child(4) {
+        padding-top: 10px;
+        border-top: 1px solid #bdbdbd;
+            }
+    
+     .HeaderSelctMobile{
+        display: flex;
+    }
+    .QuestionsWrapperDiv{
+flex-direction: column;
+gap: 50px;
+    }
+    .leftBoxQuestions h2{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .QuestionsMainDiv {
+        padding: 70px 5% 200px;
+    }
+ }
+     @media only screen and (max-width: 810px) {
+        .WhoWeAre-Div{
+       flex-direction: column;
+        }
+        .Box{
+          flex-wrap: nowrap;
+          flex-direction: column;
+        }
+        .boxWrapperWho{
+ width: 100%;
+        }
+        .getGuidance-Div{
+            padding: 30px 5% 50px 5%;           
+        }
+        .FaqBox {
+            padding: 16px 14px 16px 28px;
+        }
+        .Cta-Main{
+            margin-top: 56px;
+        }
+     }
+     @keyframes blinker {
+        50% {
+            transform: scale(1.05);
+            box-shadow: 8px 8px 0 0 #3754a0;
+        }
+      }

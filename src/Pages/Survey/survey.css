@@ -1,0 +1,248 @@
+.Survey{
+width: 100%;
+}
+.SurveyPageNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color:  #fff;
+}
+.NavBarWrapper{
+    padding: 0px 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1090px;
+    width: 100%;
+    height: 100%;
+}
+.NavLogo a{
+    font-size: 28px;
+    font-weight: 700;
+text-decoration: none;
+color: rgb(25, 25, 25);
+}
+.FeatureNavDiv{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.NavImgWrapper{
+    width: 60px;
+}
+.NavImgWrapper:last-child{
+    width: 90px;
+}
+.NavImgWrapper img{
+    width: 100%;
+    height: 20px;
+}
+.FeatureNavDiv span{
+color:#9e9e9e;
+font-size: 15px;
+font-weight: 700;
+}
+.Cta-Main-Sur{
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    background-color: #ebf7fe;  
+    display: flex;
+    flex: wrap;
+    font-family: Public Sans,sans-serif;
+    font-weight: 300;
+    padding: 0;
+}
+.left-Cta-Main-Sur{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+    flex: 1.1;
+    min-height: 412px;
+  background-image: url(https://images.expertmarket.co.uk/wp-content/uploads/sites/2/2022/01/em-telephone-systems.jpg?width=702&height=412&fit=crop);
+}
+.right-Cta-Main-Sur{
+    padding-right: 5.5%;
+    margin-left: 35px;
+    flex: 1;
+}
+.Survey-Box{
+    top:110px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BoxWrapper{
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 13px 13px 0 0 #3755a045;
+    display: flex;
+    border: 1px solid #3754a0;
+    width: 50%;
+  bottom: auto;
+}
+.PartnersDiv{
+    gap: 15px;
+    width: 100%;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.PartnersDiv h2{
+    display: none;
+    margin-top: 80px;
+font-size: 19px;
+}
+.PartnersImgWrapper{
+    display: none;
+    gap: 22px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: center;
+margin-bottom: 80px;
+}
+.PartnersDiv hr{
+    width: 100%;
+    margin: 100px 0px 40px 0px;
+        border: 1px solid #bdbdbd;
+        height: 0;
+        opacity: 80%;
+        max-width: 900px;
+}
+.StepsDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.StepsDiv h2{
+    margin-top: 50px;
+    font-weight: 700;
+    text-align: center;
+    width: 580px;
+    color: #212121;
+    font-size: 25px;
+    line-height: 38px;
+}
+.steps-Box-Wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1090px;
+    margin-bottom: 80px;
+}
+.box-steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+.box-steps h4{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 600;
+}
+.box-steps span{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+.BoxImgDiv{
+    margin-bottom: 10px;
+width: 128px;
+}
+.BoxImgDiv img{
+    width: 100%;
+    height: 128px;
+}
+.rightBoxQuestions-sur{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 80px;
+}
+li{
+margin-bottom: 18px;
+}
+.sv-progressbar-percentage {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+    line-height: 32px;
+}
+
+.sv-progressbar-percentage__title {
+    font-size: 20px;
+    display: flex;
+}
+
+.sv-progressbar-percentage__indicator {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 32px;
+    border: 1px solid #19b394;
+}
+
+.sv-progressbar-percentage__value-bar {
+    position: absolute;
+    background-color: #19b394;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.sv-progressbar-percentage__value {
+    font-size: 20px;
+    display: flex;
+    color: #19b394;
+}
+
+.sv_progress-toc {
+    min-width: 200px;
+}
+.sv-body {
+max-width: 90%;
+width: auto;
+}
+@media only screen and (max-width: 990px) {
+    .FeatureNavDiv{
+        display: none;
+    }
+    .NavBarWrapper{
+justify-content: center;
+    }
+}
+@media only screen and (max-width: 780px) {
+.BoxWrapper{
+    width: 95%;
+}
+.StepsDiv h2{
+    width: 95%;
+    font-size: 20px;
+}
+.steps-Box-Wrapper{
+    flex-direction: column;
+    gap: 20px;
+}
+.rightBoxQuestions-sur{
+width: 95%;
+}
+}

@@ -1,0 +1,104 @@
+.NavBar{
+    position: fixed;
+    top:0;
+    z-index:2;
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    padding: 15px 0px;
+}
+.navBar-mainDiv{
+    width:96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #212121;
+}
+.NavLinks{
+ color:rgb(169,184,195) ;
+display: flex;
+}
+.NavLinks a{
+    font-size: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 130px;
+    text-decoration: none;
+    color: #212121;
+}
+.NavLinks a:hover{
+text-decoration: underline;
+}
+.langDiv{
+    margin-left: 5px;
+    cursor: pointer;
+    color: #282829;
+    gap:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.langDiv span:hover{
+    text-decoration: underline;
+}
+.SerachDiv{
+    min-width: 200px;
+    width: 20%;
+    margin-left: 3%;
+    color: #949ea5;
+    padding: 0px 15px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border:1px solid #949ea5;
+}
+.SerachDiv input{
+    width: 100%;
+    border:none;
+}
+.SerachDiv input:focus{
+    outline: none;
+}
+.MenuIcon-Mobile{
+    display: none;
+}
+.SearchIcon-Mobile{
+    display: none;
+}
+@media only screen and (max-width: 1200px) {
+ .NavLinks a{
+    display: none;
+ }
+    .NavLinks{
+        display: none;
+     }
+     .logo{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .NavBar{
+        height: 58px;
+    }
+    .MenuIcon-Mobile{
+        margin-left: 15px;
+        display: block;
+    }
+    .SearchIcon-Mobile{
+        margin-right: 15px;
+        display: block;
+    }
+    }
