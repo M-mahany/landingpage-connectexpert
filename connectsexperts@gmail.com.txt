@@ -1,3 +1,0 @@
-https://console.firebase.google.com/
-email: connectsexperts@gmail.com
-password: cn@12345678 
